@@ -2,9 +2,8 @@ Source: tmate
 Section: admin
 Priority: optional
 Maintainer: Marcin Kulisz (kuLa) <debian@kulisz.net>
-Uploaders: Marcin Kulisz (kuLa) <debian@kulisz.net>
 Build-Depends: dpkg-dev(>= 1.10),
-               debhelper,
+               debhelper (>= 9),
                libncurses5-dev,
                libevent-dev,
                pkg-config,
